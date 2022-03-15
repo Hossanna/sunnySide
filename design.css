@@ -121,9 +121,53 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         color: gray;
+        font-weight: 600;
     }
     #testimonials{
         display: flex;
         height: 500px;
+        margin: 0 9.5% 0 9.5%;
+    }
+
+    .testimonial{
+        width: 27%;
+        margin: 0 4%;
+        text-align: center;
+    }
+
+    .names{
+        margin-top: 25%;
+    }
+
+    .name{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-weight: 600;
+    }
+
+    .people{
+        border-radius: 50%;
+        margin-bottom: 10%;
+    }
+
+    .images{
+        display: flex;
+    }
+    .image{
+        width: 25%;
+    }
+    .footers{
+        display: flex ;
+        height: 250px;
+        justify-content: center;
+        background-color: hsl(165, 34%, 77%);
+    }
+    .footer{
+        margin-top: 10%;
+    }
+    #footer-sunnyside{
+        margin: 5% 20%;
+        font-size: 22px;
+        font-weight: 600;
     }
 }
