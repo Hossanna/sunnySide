@@ -465,7 +465,7 @@
         display: none;
     }
     .arrow-down{
-        margin: 10% 20%
+        margin: 35% 50%
     }
     body{
         width: 100%;
@@ -481,26 +481,26 @@
         display: flex;
     }
     .one{
-        height: 470px;
+        height: 1000px;
+        
         background-image: url(images/mobile/image-header.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position-y: center;
     }
 
     #header-text{
-        margin-top: 8%;
+        margin-top: 30%;
         color: white;
         text-transform: uppercase;
         font-size: 1.5em;
-        max-width: 322px;
         text-align: center;
         letter-spacing: 2px;
         font-weight: 700;
     }
 
     #hamburger{
-        margin-left: 18%;
+        margin-left: 65%;
         width: 5%;
         margin-bottom: 5%;
         padding-top: 2%;
@@ -520,7 +520,7 @@
     }
 
     .egg{
-        width: 46%;
+        width: 100%;
     }
 
     #desktop-cup{
@@ -529,9 +529,12 @@
         height: 20%; 
     }
 
+    .first-half{
+        height: 500px;
+    }
     .transform{
         color: black;
-        margin: 5% 4%;
+        margin: 40% 4%;
         font-size: 1.5em;
         font-weight: 700;
         margin-bottom: 20px;
@@ -549,7 +552,7 @@
     }
     .second{
         text-align: center;
-        width: 37%;
+        width: 85%;
     }
     .text{
         font-size: 1em;
@@ -567,8 +570,8 @@
         
     }
     .second-half{
-        height: 500px;
-        width: 46%;
+        height: 1000px;
+        width: 100%;
     }
     .design{
         text-align: center;
@@ -589,13 +592,13 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         color: gray;
-        width: 46%;
+        width: 90%;
         font-weight: 600;
         font-size: 1.2em;
     }
 
     .testimonial{
-        width: 42%;
+        width: 90%;
         margin: 0px 2%;
         font-size: 1em;
         color: rgb(88, 80, 80);
@@ -624,11 +627,11 @@
 
     .images-one {
         display: flex;
-        width: 46%;
+        width: 100%;
     }
     .images-two{
         display: flex;
-        width: 46%;
+        width: 100%;
     }
 
     .image{
@@ -636,7 +639,7 @@
     }
     .footers{
         height: 250px;
-        width: 46%;
+        width: 100%;
         text-align: center;
         justify-content: center; 
         background-color: hsl(165, 34%, 77%);
