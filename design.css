@@ -479,6 +479,7 @@
 
     .first-flex{
         display: flex;
+        padding-top: 2%;
     }
     .one{
         height: 1000px;
@@ -530,11 +531,11 @@
     }
 
     .first-half{
-        height: 500px;
+        height: 380px;
     }
     .transform{
         color: black;
-        margin: 15% 4%;
+        margin: 30% 4%;
         font-size: 1.5em;
         font-weight: 700;
         margin-bottom: 20px;
@@ -571,7 +572,7 @@
     }
     .second-half{
         height: 1000px;
-        width: 100%;
+        width: 95%;
     }
     .design{
         text-align: center;
