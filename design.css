@@ -1,4 +1,4 @@
-@media(min-width: 0px){
+@media screen and (min-width: 1025px){
     * {
         box-sizing: border-box;
         padding: 0;
@@ -12,9 +12,14 @@
     .one{
         position: relative;
         text-align: center;
-        height: 720px;
+        height: 700px;
         background-image: url(images/desktop/image-header.jpg);
         background-size: cover;
+        background-position: center;
+    }
+
+    #hamburger{
+        display: none;
     }
     
     #header-pic{
@@ -25,14 +30,15 @@
     #header-text{
         color: white;
         text-transform: uppercase;
-        font-size: 25px;
-        margin-top: 13%;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 10%;
         letter-spacing: 2px;
         font-weight: 800;
     }
     
     .arrow-down{
-        margin-top: 80px;
+        margin-top: 5%;
     }
     .first-flex{
         display: flex;
@@ -40,24 +46,24 @@
     .nav{
         display: flex;
         width: 50%;
+        margin-top: 1%;
+        margin-left: 35%;
         justify-content: flex-end;
     }
     #sunnyside{
-        justify-content: flex-start;
-        font-size: 20px;
-        text-align: start;
-        width: 50%;
-        font-weight: 600;
+        margin-top: 2%;
+        margin-left: 2%;
     }
     .navbar{
         padding: 20px;
         color: white;
         font-size: 17px;
     }
+    .navbar:hover{
+        
+        color: black;
+    }
 
-    /* .navbar:hover{
-       
-    } */
 
     #about{
         padding-left: 50%;
@@ -76,6 +82,14 @@
         display: flex;
         height: 500px;
     }
+
+    #desktop-egg{
+        display: none;
+    }
+    #desktop-cup{
+        display: none;
+    }
+
     .first-half{
         width: 50%;
         padding: 15% 12%;
@@ -95,6 +109,9 @@
         font-size: 12px;
         text-transform: uppercase;
         font-weight: 800;
+    }
+    .learn:hover{
+        text-decoration: underline 2px red;
     }
     .graphic{
         background-image: url(images/desktop/image-graphic-design.jpg);
@@ -157,17 +174,716 @@
         width: 25%;
     }
     .footers{
-        display: flex ;
         height: 250px;
-        justify-content: center;
+        text-align: center;
+        justify-content: center; 
         background-color: hsl(165, 34%, 77%);
     }
     .footer{
-        margin-top: 10%;
+        
+        text-align: center;
+        padding-right: 5%;
+        color: hsl(165, 52%, 27%) ;
+    }
+    .small-footer{
+        display: flex ;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .footer:hover{
+        color: white;
     }
     #footer-sunnyside{
-        margin: 5% 20%;
+        padding-top: 5% ;
+        color: hsl(165, 52%, 27%) ;
         font-size: 22px;
         font-weight: 600;
     }
+    #footer-projects{
+        padding: 0;
+    }
+    #icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .icon{
+        padding-right: 2%;
+    }
+    .icon:hover{
+        color: white;
+        
+    }
+    #pintrest{
+        padding: 0;
+    }
+    .display-none{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px){
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* body{
+        font-family: ;
+    } */
+
+    .one{
+        position: relative;
+        text-align: center;
+        height: 700px;
+        background-image: url(images/desktop/image-header.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #hamburger{
+        display: none;
+    }
+    
+    #header-pic{
+        width: 100%;
+        height: 50%;
+    }
+    
+    #header-text{
+        color: white;
+        text-transform: uppercase;
+        font-size: 2em;
+        margin-top: 13%;
+        letter-spacing: 2px;
+        font-weight: 800;
+    }
+    
+    .arrow-down{
+        margin-top: 80px;
+    }
+    .first-flex{
+        display: flex;
+    }
+    .nav{
+        display: flex;
+        width: 50%;
+        margin-top: 1%;
+        margin-left: 35%;
+        justify-content: flex-end;
+    }
+    #sunnyside{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .navbar{
+        padding: 20px;
+        color: white;
+        font-size: 17px;
+    }
+    .navbar:hover{
+        
+        color: black;
+    }
+
+
+    #about{
+        padding-left: 50%;
+    }
+    #contact{
+        padding-right: 40px;
+    }
+
+    .two{
+        display: flex;
+    }
+    .three{
+        display: flex;
+    }
+    .four{
+        display: flex;
+        height: 500px;
+    }
+
+    #desktop-egg{
+        display: none;
+    }
+    #desktop-cup{
+        display: none;
+    }
+
+    .first-half{
+        width: 50%;
+        padding: 15% 12%;
+    }
+    .second-half{
+        width: 50%;
+    }
+    
+    .transform{
+        color: black;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .learn{
+        margin-top: 20px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .learn:hover{
+        text-decoration: underline 2px red;
+    }
+    .graphic{
+        background-image: url(images/desktop/image-graphic-design.jpg);
+        background-size: cover;
+    }
+    .Photography{
+        background-image: url(images/desktop/image-photography.jpg);
+        background-size: cover;
+    }
+    .design{
+        text-align: center;
+        padding-top: 55%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .p{
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    #client{
+        text-align: center;
+        margin: 10% 0 6% 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: gray;
+        font-weight: 600;
+    }
+    #testimonials{
+        display: flex;
+        height: 500px;
+        margin: 0 9.5% 0 9.5%;
+    }
+
+    .testimonial{
+        width: 27%;
+        margin: 0 4%;
+        text-align: center;
+    }
+
+    .names{
+        margin-top: 25%;
+    }
+
+    .name{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-weight: 600;
+    }
+
+    .people{
+        border-radius: 50%;
+        margin-bottom: 10%;
+    }
+
+    .images{
+        display: flex;
+    }
+    .image{
+        width: 25%;
+    }
+    .footers{
+        height: 250px;
+        text-align: center;
+        justify-content: center; 
+        background-color: hsl(165, 34%, 77%);
+    }
+    .footer{
+        
+        text-align: center;
+        padding-right: 5%;
+        color: hsl(165, 52%, 27%) ;
+    }
+    .small-footer{
+        display: flex ;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .footer:hover{
+        color: white;
+    }
+    #footer-sunnyside{
+        padding-top: 5% ;
+        color: hsl(165, 52%, 27%) ;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    #footer-projects{
+        padding: 0;
+    }
+    #icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .icon{
+        padding-right: 2%;
+    }
+    .icon:hover{
+        color: white;
+        
+    }
+    #pintrest{
+        padding: 0;
+    }
+    .display-none{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:500px) and (max-width:720px) {
+    
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav{
+        display: none;
+    }
+    .arrow-down{
+        margin: 20% auto;
+    }
+    
+    #sunnyside{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .first-flex{
+        display: flex;
+    }
+    .one{
+        height: 100%;
+        background-image: url(images/mobile/image-header.jpg);
+        background-size: cover;
+        width: 720px;
+    }
+
+    #header-text{
+        color: white;
+        text-transform: uppercase;
+        font-size: 2em;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    #hamburger{
+        margin-left: 60%;
+        height: 10%;
+        width: 5%;
+        margin-bottom: 5%;
+        padding-top: 2%;
+        
+    }
+
+    .two{
+        display: none;
+    }
+    .three{
+        display: none;
+    }
+    #desktop-egg{
+        /* background-image: url(images/mobile/image-transform.jpg);
+        background-size: cover; */
+        height: 20%; 
+    }
+
+    #desktop-cup{
+        /* background-image: url(images/mobile/image-stand-out.jpg);
+        background-size: cover; */
+        height: 20%; 
+    }
+
+    .transform{
+        color: black;
+        margin: 10% auto;
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .learn{
+        margin-top: 45px;
+        margin-bottom: 70px;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .learn:hover{
+        text-decoration: underline 2px pink;
+    }
+    .second{
+        text-align: center;
+    }
+    .text{
+        font-size: 35px;
+        margin: 4%;
+    }
+
+    .graphic{
+        background-image: url(images/mobile/image-graphic-design.jpg);
+        background-size: cover;
+        
+    }
+    .Photography{
+        background-image: url(images/mobile/image-photography.jpg);
+        background-size: cover; 
+        
+    }
+    .second-half{
+        height: 1000px;
+        width: 750px;
+    }
+    .design{
+        text-align: center;
+        padding-top: 100%;
+        padding-left: 10%;
+        font-size: 185%;
+        padding-right: 10%;
+    }
+    .p{
+        margin-bottom: 30px;
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    #client{
+        text-align: center;
+        margin: 10% 0 10% 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: gray;
+        font-weight: 600;
+        font-size: 2em;
+    }
+
+    .testimonial{
+        width: 80%;
+        margin: 0px auto;
+        font-size: 190%;
+        color: rgb(88, 80, 80);
+        text-align: center;
+    }
+
+    .names{
+        margin-top: 10%;
+        margin-bottom: 25%;
+    }
+
+    .name{
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        font-weight: 600;
+    }
+
+    .people{
+        border-radius: 50%;
+        margin-bottom: 10%;
+    }
+
+    .images{
+        display: none;
+    }
+
+    .images-one {
+        display: flex;
+        width: 750px;
+    }
+    .images-two{
+        display: flex;
+        width: 750px;
+    }
+
+    .image{
+        width: 50%;
+    }
+    .footers{
+        height: 250px;
+        width: 750px;
+        text-align: center;
+        justify-content: center; 
+        background-color: hsl(165, 34%, 77%);
+    }
+    .footer{
+        font-size: 1.5em;
+        text-align: center;
+        padding-right: 5%;
+        color: hsl(165, 52%, 27%) ;
+    }
+    .small-footer{
+        display: flex ;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .footer:hover{
+        color: white;
+    }
+    #footer-sunnyside{
+        padding-top: 5% ;
+        color: hsl(165, 52%, 27%) ;
+        font-size: 225%;
+        font-weight: 600;
+    }
+    #footer-projects{
+        padding: 0;
+    }
+    #icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .icon{
+        padding-right: 4%;
+    }
+    .icon:hover{
+        color: white;
+        
+    }
+    #pintrest{
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width:0px) and (max-width:500px) {
+    
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    
+
+    .nav{
+        display: none;
+    }
+    .arrow-down{
+        margin: 20% 50%;
+    }
+    
+    #sunnyside{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 7%;
+        margin-top: 5%;
+        color: white;
+    }
+
+    .first-flex{
+        display: flex;
+    }
+    .one{
+        height: 1000px;
+        background-image: url(images/mobile/image-header.jpg);
+        background-size: cover;
+        width: 750px;
+    }
+
+    #header-text{
+        color: white;
+        text-transform: uppercase;
+        font-size: 66px;
+        margin: 30% 10% 0% 10%;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    #hamburger{
+        margin-left: 60%;
+        height: 10%;
+        width: 5%;
+        padding-top: 6%;
+        
+    }
+
+    .two{
+        display: none;
+    }
+    .three{
+        display: none;
+    }
+    #desktop-egg{
+        /* background-image: url(images/mobile/image-transform.jpg);
+        background-size: cover; */
+        height: 20%; 
+    }
+
+    #desktop-cup{
+        /* background-image: url(images/mobile/image-stand-out.jpg);
+        background-size: cover; */
+        height: 20%; 
+    }
+
+    .transform{
+        color: black;
+        margin: 10% auto;
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .learn{
+        margin-top: 45px;
+        margin-bottom: 70px;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .learn:hover{
+        text-decoration: underline 2px pink;
+    }
+    .second{
+        text-align: center;
+    }
+    .text{
+        font-size: 35px;
+        margin: 4%;
+    }
+
+    .graphic{
+        background-image: url(images/mobile/image-graphic-design.jpg);
+        background-size: cover;
+        
+    }
+    .Photography{
+        background-image: url(images/mobile/image-photography.jpg);
+        background-size: cover; 
+        
+    }
+    .second-half{
+        height: 1000px;
+        width: 750px;
+    }
+    .design{
+        text-align: center;
+        padding-top: 100%;
+        padding-left: 10%;
+        font-size: 185%;
+        padding-right: 10%;
+    }
+    .p{
+        margin-bottom: 30px;
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    #client{
+        text-align: center;
+        margin: 10% 0 10% 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: gray;
+        font-weight: 600;
+        font-size: 2em;
+    }
+
+    .testimonial{
+        width: 80%;
+        margin: 0px auto;
+        font-size: 190%;
+        color: rgb(88, 80, 80);
+        text-align: center;
+    }
+
+    .names{
+        margin-top: 10%;
+        margin-bottom: 25%;
+    }
+
+    .name{
+        font-size: 1.2em;
+        margin-bottom: 2%;
+        font-weight: 600;
+    }
+
+    .people{
+        border-radius: 50%;
+        margin-bottom: 10%;
+    }
+
+    .images{
+        display: none;
+    }
+
+    .images-one {
+        display: flex;
+        width: 750px;
+    }
+    .images-two{
+        display: flex;
+        width: 750px;
+    }
+
+    .image{
+        width: 50%;
+    }
+    .footers{
+        height: 250px;
+        width: 750px;
+        text-align: center;
+        justify-content: center; 
+        background-color: hsl(165, 34%, 77%);
+    }
+    .footer{
+        font-size: 1.5em;
+        text-align: center;
+        padding-right: 5%;
+        color: hsl(165, 52%, 27%) ;
+    }
+    .small-footer{
+        display: flex ;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
+    .footer:hover{
+        color: white;
+    }
+    #footer-sunnyside{
+        padding-top: 5% ;
+        color: hsl(165, 52%, 27%) ;
+        font-size: 225%;
+        font-weight: 600;
+    }
+    #footer-projects{
+        padding: 0;
+    }
+    #icons{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .icon{
+        padding-right: 4%;
+    }
+    .icon:hover{
+        color: white;
+        
+    }
+    #pintrest{
+        padding: 0;
+    }
+
 }
