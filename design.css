@@ -695,9 +695,7 @@
         margin: 0;
     }
 
-    .container{
-        max-width: 720px;
-    }
+    
 
     .nav{
         display: none;
@@ -707,7 +705,7 @@
     }
     body{
         width: 100%;
-        max-width: 720px;
+        
     }
     
     #sunnyside{
@@ -719,7 +717,7 @@
         display: flex;
     }
     .one{
-        height: 1000px;
+        height: 600px;
         
         background-image: url(images/mobile/image-header.jpg);
         background-size: cover;
@@ -738,7 +736,7 @@
     }
 
     #hamburger{
-        margin-left: 65%;
+        margin-left: 55%;
         width: 5%;
         margin-bottom: 5%;
         padding-top: 2%;
@@ -768,11 +766,12 @@
     }
 
     .first-half{
-        height: 500px;
+        height: 300px;
     }
     .transform{
         color: black;
-        margin: 15% 4%;
+        padding-top: 8%;
+        margin: 15% 7%;
         font-size: 1.5em;
         font-weight: 700;
         margin-bottom: 20px;
@@ -781,7 +780,7 @@
         margin-top: 3%;
         margin-bottom: 6%;
         font-size: .8em;
-        margin-left: 4%;
+        margin-left: 6%;
         text-transform: uppercase;
         font-weight: 800;
     }
@@ -794,7 +793,7 @@
     }
     .text{
         font-size: 1em;
-        margin: 4%;
+        margin: 6%;
     }
 
     .graphic{
@@ -808,7 +807,7 @@
         
     }
     .second-half{
-        height: 1000px;
+        height: 620px;
         width: 100%;
     }
     .design{
